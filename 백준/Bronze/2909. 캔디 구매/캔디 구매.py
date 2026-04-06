@@ -4,8 +4,7 @@ input = sys.stdin.readline
 c, k = map(int, input().split())
 m = 1
 
-for _ in range(k):
-    m = m*10
+m = 10**k
 
 result = c
 n = c%m
